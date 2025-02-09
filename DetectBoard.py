@@ -118,6 +118,7 @@ if __name__ == "__main__" :
     cap = cv.VideoCapture(0)
     w = VedioCrop()
 
+   
     while True: 
         _ , frame = cap.read()
         frame = w.getCroppedFrame(frame)
@@ -125,14 +126,15 @@ if __name__ == "__main__" :
             #user controls
         key = cv.waitKey(1) & 0xFF
         match key :
-            case ord('x'):      #crop vedio frame
+            case x if x == ord('x') :      #crop vedio frame
                 w.setSelection(frame)
-            case ord('q'):      #quit
+            case q if q == ord('q'):      #quit
                 break
-            case ord('c') :     #get board detection result in current frame
+            case c if c == ord('c') :     #get board detection result in current frame
                 brd=getValue(frame)
                 print("\nBoard pices colour pos:")
                 [print(i) for i in brd ]
+            case _ : pass
         
 
         cv.imshow("Display", drawGrid( frame, (0, 255, 0) ))    #display every frame with cropped board with grid
