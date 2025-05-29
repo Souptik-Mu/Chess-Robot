@@ -1,0 +1,89 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.spec
+
+# Installer logs
+debug.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+*.manifest
+*.spec
+
+# Installer artifacts
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Assets (keep assets/ but ignore temp or build assets)
+assets/*.tmp
+
+# Arduino build files
+*.hex
+*.elf
+*.bin
+*.eep
+*.map
+*.dmp
+*.lst
+*.obj
+*.o
+*.a
+*.sdf
+*.suo
+*.dep
+*.log
+*.dat
+*.csv
+*.bak
+*.tmp
+
+# Ignore log files
+*.log
+
+# Ignore backup files
+*~
+*.bak
