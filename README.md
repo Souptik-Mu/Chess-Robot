@@ -1,4 +1,4 @@
-# Chessboard LED Control Interface
+# A microcontroller-based chessboard with visual feedback
 
 This project provides a GUI interface for controlling a chessboard with automated LED indicators. It uses CustomTkinter for the GUI, OpenCV for camera input, python-chess for chess logic, and serial communication with an ESP32 microcontroller to control LEDs on the chessboard.
 
