@@ -45,6 +45,3 @@ ChessBot.spec          # PyInstaller spec file
 - Circuit diagrams are in the `Circuits/` folder:
   ![Main Circuit](Circuits/Main.png)
   ![LED Matrix](Circuits/LED_Matrix.png)
-
-## License
-Specify your license here.
